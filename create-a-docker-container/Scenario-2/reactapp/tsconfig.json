@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "target": "es5",
+    "jsx": "react-jsx",
+    "forceConsistentCasingInFileNames": true,
+    "checkJs": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "lib": ["DOM", "ESNext"]
+  },
+
+  "include": ["src/**/*", "declaration.d.ts"],
+  "exclude": ["node_modules", "dist", "build"]
+}
