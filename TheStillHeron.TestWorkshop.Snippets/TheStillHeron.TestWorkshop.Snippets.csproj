@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheStillHeron.TestWorkshop.Console\TheStillHeron.TestWorkshop.Console.csproj" />
+    <ProjectReference Include="..\TheStillHeron.TestWorkshop.SoccerApi\TheStillHeron.TestWorkshop.SoccerApi.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
